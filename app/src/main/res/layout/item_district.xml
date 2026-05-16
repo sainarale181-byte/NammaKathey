@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/navy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Left: Emoji Icon Box -->
+        <LinearLayout
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@color/navy_light"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDistrictEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏛"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <!-- Middle: District Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="14dp">
+
+            <!-- District Name -->
+            <TextView
+                android:id="@+id/tvDistrictName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mysuru"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Famous Hero -->
+            <TextView
+                android:id="@+id/tvFamousHero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home of Tipu Sultan"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:alpha="0.7"
+                android:layout_marginTop="2dp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Hero Count Badge -->
+            <TextView
+                android:id="@+id/tvHeroCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Heroes"
+                android:textSize="11sp"
+                android:textColor="@color/navy"
+                android:background="@color/gold"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <!-- Right: Arrow -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textSize="20sp"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

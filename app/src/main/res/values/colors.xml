@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Premium Theme Colors -->
+    <color name="navy">#0D1B4B</color>
+    <color name="navy_light">#1A2F6B</color>
+    <color name="navy_dark">#060D26</color>
+    <color name="gold">#C8860A</color>
+    <color name="gold_light">#E8A020</color>
+    <color name="saffron">#C65102</color>
+    <color name="saffron_light">#E06020</color>
+    <color name="saffron_dark">#A03D00</color>
+
+    <!-- Background Colors -->
+    <color name="bg_light">#F8F9FF</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_navy_light">#EEF0F8</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gold">#C8860A</color>
+    <color name="text_navy">#0D1B4B</color>
+
+    <!-- Badge Colors -->
+    <color name="badge_green">#1B6B3A</color>
+    <color name="badge_bg">#E8F5EE</color>
+    <color name="quiz_correct">#1B6B3A</color>
+    <color name="quiz_wrong">#C0392B</color>
+
+    <!-- District Colors -->
+    <color name="district_default">#EEF0F8</color>
+    <color name="district_selected">#0D1B4B</color>
+
+    <!-- Divider -->
+    <color name="divider">#E5E7EB</color>
+    <color name="grey_light">#F3F4F6</color>
+    <color name="deep_blue">#0D1B4B</color>
+</resources>

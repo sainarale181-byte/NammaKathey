@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:strokeColor="@color/saffron"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero Image -->
+        <ImageView
+            android:id="@+id/ivHeroImage"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            android:background="@color/district_default"
+            android:contentDescription="Hero Image" />
+
+        <!-- Hero Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Hero Name -->
+            <TextView
+                android:id="@+id/tvHeroName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangolli Rayanna"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <!-- Hero Type Badge -->
+            <TextView
+                android:id="@+id/tvHeroType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freedom Fighter"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:background="@color/saffron"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Hero Era -->
+            <TextView
+                android:id="@+id/tvHeroEra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Era: 1798 - 1831"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="4dp" />
+
+            <!-- Read Story Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReadStory"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Read Story →"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/deep_blue"
+                style="@style/Widget.Material3.Button"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

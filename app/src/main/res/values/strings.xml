@@ -1,0 +1,63 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Namma Kathey</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_tagline">ನಮ್ಮ ಕಥೆ — Our Story</string>
+    <string name="splash_subtitle">Stories of Karnataka\'s Local Heroes</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Namma Kathey!</string>
+    <string name="onboarding_name_hint">Enter your name</string>
+    <string name="onboarding_choose_language">Choose your language</string>
+    <string name="btn_kannada">ಕನ್ನಡ</string>
+    <string name="btn_english">English</string>
+    <string name="btn_lets_go">Let\'s Go!</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Choose Your District</string>
+    <string name="home_subtitle">Tap a district to meet its heroes</string>
+
+    <!-- Hero Screen -->
+    <string name="hero_title">Heroes of</string>
+    <string name="btn_read_story">Read Story</string>
+    <string name="hero_era">Era</string>
+    <string name="hero_district">District</string>
+    <string name="hero_type">Known For</string>
+
+    <!-- Story Screen -->
+    <string name="btn_listen">Listen</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Previous</string>
+    <string name="btn_take_quiz">Take Quiz</string>
+    <string name="story_page">Page</string>
+
+    <!-- Quiz Screen -->
+    <string name="quiz_title">Hero Quiz</string>
+    <string name="quiz_question">Question</string>
+    <string name="quiz_of">of</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_next_question">Next Question</string>
+    <string name="quiz_correct">Correct! 🎉</string>
+    <string name="quiz_wrong">Wrong! Try next time</string>
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="badge_earned">You earned the Heritage Badge!</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_badges">My Heritage Badges</string>
+    <string name="profile_stories_read">Stories Read</string>
+    <string name="profile_no_badges">No badges yet. Read stories and take quizzes!</string>
+
+    <!-- Statue Finder -->
+    <string name="statue_finder_title">Statue Finder</string>
+    <string name="btn_find_statue">Find Nearest Memorial</string>
+    <string name="statue_finding">Finding nearest memorial…</string>
+
+    <!-- Common -->
+    <string name="btn_back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="language_toggle">Switch Language</string>
+</resources>
